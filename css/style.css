@@ -185,7 +185,7 @@ header nav ul li{
     bottom: 40px;
  }
 
- /*-----GRIDCONTAINER INDEX----*/
+ /*-----GRIDCONTAINER----*/
 
  .grid-containervariedad{
     color: pink;
@@ -232,6 +232,14 @@ header nav ul li{
     box-shadow: 10px 10px 13px -3px rgba(0,0,0,0.75);
 -webkit-box-shadow: 10px 10px 13px -3px rgba(0,0,0,0.75);
 -moz-box-shadow: 10px 10px 13px -3px rgba(0,0,0,0.75);
+}
+
+
+/*-------BOOTSTRAP------*/
+
+.carousel-item img{
+    width: 100%;
+    height: 70vh;
 }
 
 
