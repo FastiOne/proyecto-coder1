@@ -237,10 +237,19 @@ header nav ul li{
 
 /*-------BOOTSTRAP------*/
 
+/*----CAROUSEL-----*/
+
 .carousel-item img{
     width: 100%;
     height: 75vh;
 }
+
+.list-group{
+    text-align: center;
+    margin-top: 50px;
+}
+
+
 
 
 
@@ -277,6 +286,7 @@ footer ul li a{
 .servicios div h1{
     font-style: italic;
     color: rgb(210, 92, 240);
+    text-align: center;
 }
 
 .serviciosimg{
