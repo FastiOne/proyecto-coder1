@@ -193,7 +193,7 @@ header nav ul li{
     grid-template-columns: repeat(2,1);
     grid-template-rows: 100px;
     border: solid 1px palevioletred;
-    background-color: bisque;
+    background-image: linear-gradient( to bottom, pink, rgb(243, 111, 133));
     margin-top: 20px;
  }
 
@@ -205,8 +205,9 @@ header nav ul li{
  }
 
  .grid-containervariedad p{
-    color: palevioletred;
+    color: rgb(82, 2, 28);
  }
+
 
 
  
