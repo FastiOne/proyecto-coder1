@@ -132,3 +132,22 @@ main .boton-fixed img {
   position: fixed;
   right: 40px;
   bottom: 40px; }
+
+footer {
+  background-color: #ec8193;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 150px; }
+  footer .logo {
+    width: 180px;
+    height: 150px; }
+  footer ul li a {
+    text-decoration: none;
+    color: #f3f29f;
+    font-size: 20px;
+    font-weight: 500px;
+    font-style: italic; }
+  footer div .redeslogo {
+    width: 30px;
+    height: 30px; }
