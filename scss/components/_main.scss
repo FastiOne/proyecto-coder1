@@ -45,11 +45,22 @@ main{
         }
     }
     .grid-containervariedad{
+        color: pink;
+        display: grid;
+        grid-template-columns: repeat(2,1);
+        grid-template-rows: 100px;
+        border: solid 1px palevioletred;
+        background-color: bisque;
+        margin-top: 20px;
 
         h2{
-            color: rgb(238, 10, 143);
-            margin: 30px 0px 0px 20px ;
             font-style: italic;
+            color: palevioletred;
+            text-align: center;
+            font-size: 40px;
+        }
+        p{
+            color: palevioletred;
         }
         .variedad__pg{
             display: flex;
