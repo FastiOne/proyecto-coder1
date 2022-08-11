@@ -12,7 +12,6 @@ header{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-image: linear-gradient( to bottom, pink, rgb(236, 71, 98));
 }
 
 header h2{
@@ -91,6 +90,17 @@ header nav ul li{
     font-family: 'The Nautigal', cursive;
     position: sticky;
     top: 20px;
+}
+
+/*----CAROUSEL----*/
+
+.carousel-inner{
+    width: 100%;
+    height: 70vh;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
 }
 
 .variedad h2{
@@ -186,7 +196,7 @@ header nav ul li{
     bottom: 40px;
  }
 
- /*-----GRIDCONTAINER----*/
+ /*-----GRIDCONTAINER INDEX----*/
 
  .grid-containervariedad{
     color: pink;
@@ -194,7 +204,7 @@ header nav ul li{
     grid-template-columns: repeat(2,1);
     grid-template-rows: 100px;
     border: solid 1px palevioletred;
-    background-image: linear-gradient( to bottom, pink, rgb(243, 111, 133));
+    background-color: bisque;
     margin-top: 20px;
  }
 
@@ -206,9 +216,8 @@ header nav ul li{
  }
 
  .grid-containervariedad p{
-    color: rgb(82, 2, 28);
+    color: palevioletred;
  }
-
 
 
  
@@ -235,23 +244,6 @@ header nav ul li{
 -webkit-box-shadow: 10px 10px 13px -3px rgba(0,0,0,0.75);
 -moz-box-shadow: 10px 10px 13px -3px rgba(0,0,0,0.75);
 }
-
-
-/*-------BOOTSTRAP------*/
-
-/*----CAROUSEL-----*/
-
-.carousel-item img{
-    width: 100%;
-    height: 75vh;
-}
-
-.list-group{
-    text-align: center;
-    margin-top: 50px;
-}
-
-
 
 
 
@@ -288,7 +280,6 @@ footer ul li a{
 .servicios div h1{
     font-style: italic;
     color: rgb(210, 92, 240);
-    text-align: center;
 }
 
 .serviciosimg{
