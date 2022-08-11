@@ -14,17 +14,6 @@ header{
     align-items: center;
 }
 
-header h2{
-    color: blueviolet;
-    font-style: italic;
-    font-weight: 100;
-}
-
-header h3{
-    color: blueviolet;
-    font-style: italic;
-    font-weight: 100;
-}
 
 header img{
     width: 180px;

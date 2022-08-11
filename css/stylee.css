@@ -1,0 +1,19 @@
+header {
+  background-color: #ec8193;
+  display: flex;
+  justify-content: space-between;
+  align-items: center; }
+  header img {
+    width: 180px;
+    height: 150px; }
+  header nav ul {
+    list-style: none;
+    display: flex; }
+    header nav ul li {
+      margin: 20px; }
+      header nav ul li a {
+        text-decoration: none;
+        color: #f3f29f;
+        font-size: 20px;
+        font-weight: 500px;
+        font-style: italic; }
