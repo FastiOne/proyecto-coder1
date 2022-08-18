@@ -33,4 +33,17 @@ footer{
 header{
     background-color: rgb(236, 129, 147);
     @extend %flex
+};
+
+//* MIXIN
+
+@mixin flex ($flex, $justify, $align){
+    display: $flex;
+    justify-content: $justify;
+    align-items: $align;
 }
+
+header{
+    @include flex (flex, space-between, center)
+}
+
