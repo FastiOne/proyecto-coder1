@@ -29,3 +29,8 @@ footer{
     height: 150px;
     @extend %flex
 }
+
+header{
+    background-color: rgb(236, 129, 147);
+    @extend %flex
+}
