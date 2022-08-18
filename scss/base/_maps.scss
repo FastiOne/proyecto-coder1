@@ -35,15 +35,5 @@ header{
     @extend %flex
 };
 
-//* MIXIN
 
-@mixin flex ($flex, $justify, $align){
-    display: $flex;
-    justify-content: $justify;
-    align-items: $align;
-}
-
-header{
-    @include flex (flex, space-between, center)
-}
 
