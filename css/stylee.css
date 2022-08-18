@@ -204,3 +204,36 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center; }
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center; }
+
+/*----MEDIA QUERIES----*/
+/*Responsive max-width*/
+@media screen and (max-width: 714px) {
+  header {
+    flex-direction: column; } }
+
+@media screen and (max-width: 921px) {
+  .variedad {
+    flex-direction: column; } }
+
+@media screen and (max-width: 527px) {
+  header nav ul {
+    flex-direction: column;
+    text-align: center; } }
+
+@media screen and (max-width: 615px) {
+  .relevantes-container {
+    flex-direction: column;
+    align-items: center; } }
+
+@media screen and (max-width: 714px) {
+  footer {
+    flex-direction: column; } }
+
+@media screen and (max-width: 1275px) {
+  .productos div section {
+    flex-direction: column; } }
