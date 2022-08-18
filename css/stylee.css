@@ -25,6 +25,15 @@ header {
   padding: 5px;
   text-decoration: none; }
 
+footer {
+  display: flex;
+  justify-content: space-around;
+  align-items: center; }
+
+footer {
+  background-color: #ec8193;
+  height: 150px; }
+
 main .hero {
   width: 100%;
   height: 80vh;
@@ -165,3 +174,12 @@ footer {
   color: bisque;
   padding: 5px;
   text-decoration: none; }
+
+footer {
+  display: flex;
+  justify-content: space-around;
+  align-items: center; }
+
+footer {
+  background-color: #ec8193;
+  height: 150px; }

@@ -15,3 +15,17 @@ $boton:(
     padding: map-get($boton, padding-boton );
     text-decoration: map-get($boton, text-decoration );
 }
+
+//* EXTENDS
+
+%flex{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+footer{
+    background-color: rgb(236, 129, 147);
+    height: 150px;
+    @extend %flex
+}
