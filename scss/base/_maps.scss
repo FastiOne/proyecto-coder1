@@ -1,0 +1,17 @@
+$boton:(
+    // KEY : VALOR
+    bg-boton: rgb(241, 107, 241),
+    border-boton: 5px, 
+    color-texto: bisque,
+    padding-boton: 5px,
+    text-decoration: none,
+    
+);
+
+.boton{
+    background-color: map-get($boton, bg-boton );
+    border: map-get($boton, border-boton );
+    color: map-get($boton, color-texto );
+    padding: map-get($boton, padding-boton );
+    text-decoration: map-get($boton, text-decoration );
+}
