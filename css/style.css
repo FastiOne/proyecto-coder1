@@ -326,6 +326,11 @@ footer ul li a{
 .introduccion h1{
     font-style: italic;
     color: rgb(210, 92, 240);
+    text-align: center;
+}
+
+.introduccion p{
+    margin-top: 20px;
 }
 
 .acercadeimgfooter{
