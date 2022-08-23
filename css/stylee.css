@@ -60,7 +60,7 @@ main .hero {
     width: 80%;
     text-align: center; }
     main .hero div h1 {
-      font-size: 65px;
+      font-size: 50px;
       font-weight: 100;
       font-style: italic;
       letter-spacing: 5px;
@@ -68,7 +68,8 @@ main .hero {
       text-align: center;
       font-family: 'The Nautigal', cursive;
       position: sticky;
-      top: 20px; }
+      top: 20px;
+      font-style: italic; }
     main .hero div a {
       text-decoration: none;
       background-color: #f16bf1;
