@@ -46,121 +46,117 @@ footer {
 header {
   background-color: #ec8193; }
 
-main .hero {
-  width: 100%;
-  height: 80vh;
-  background-image: url("../img/fondo.jpg");
-  background-position: center;
-  background-size: cover;
-  background-attachment: fixed;
-  display: flex;
-  justify-content: center;
-  align-items: center; }
-  main .hero div {
-    width: 80%;
-    text-align: center; }
-    main .hero div h1 {
-      font-size: 50px;
-      font-weight: 100;
-      font-style: italic;
-      letter-spacing: 5px;
-      color: #ee0a8f;
-      text-align: center;
-      font-family: 'The Nautigal', cursive;
-      position: sticky;
-      top: 20px;
-      font-style: italic; }
-    main .hero div a {
-      text-decoration: none;
-      background-color: #f16bf1;
-      padding: 5px;
-      color: bisque;
-      border-radius: 5px; }
-
-main .carouselcontainer .carousel-inner {
-  width: 100%;
-  height: 72vh;
-  background-position: center;
-  background-size: cover;
-  display: flex;
-  align-items: center;
-  margin-top: 20px; }
-
-main .grid-containervariedad {
-  color: pink;
-  display: grid;
-  grid-template-columns: repeat(2, 1);
-  grid-template-rows: 100px;
-  border: solid 1px palevioletred;
-  background-color: bisque;
-  margin-top: 20px; }
-  main .grid-containervariedad h2 {
-    font-style: italic;
-    color: palevioletred;
-    text-align: center;
-    font-size: 40px; }
-  main .grid-containervariedad p {
-    color: palevioletred; }
-  main .grid-containervariedad .variedad__pg {
+main {
+  background-color: white; }
+  main .hero {
+    width: 100%;
+    height: 80vh;
+    background-image: url("../img/fondo.jpg");
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
     display: flex;
-    justify-content: space-around;
-    margin: 60px 60px 0 0; }
-    main .grid-containervariedad .variedad__pg .variedad__tittle {
+    justify-content: center;
+    align-items: center; }
+    main .hero div {
+      width: 80%;
+      text-align: center; }
+      main .hero div h1 {
+        font-size: 50px;
+        font-weight: 100;
+        font-style: italic;
+        letter-spacing: 5px;
+        color: #ee0a8f;
+        text-align: center;
+        font-family: 'The Nautigal', cursive;
+        position: sticky;
+        top: 20px;
+        font-style: italic; }
+      main .hero div a {
+        text-decoration: none;
+        background-color: #f16bf1;
+        padding: 5px;
+        color: bisque;
+        border-radius: 5px; }
+  main .carouselcontainer .carousel-inner {
+    width: 100%;
+    height: 72vh;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    margin-top: 20px; }
+  main .grid-containervariedad {
+    color: pink;
+    display: grid;
+    grid-template-columns: repeat(2, 1);
+    grid-template-rows: 100px;
+    border: solid 1px palevioletred;
+    background-color: bisque;
+    margin-top: 20px; }
+    main .grid-containervariedad h2 {
       font-style: italic;
-      color: #ee0a8f; }
-    main .grid-containervariedad .variedad__pg .variedad__p {
-      margin: 10px 0px 0px 5px; }
-
-main .table-container {
-  margin-top: 30px;
-  margin-bottom: 30px; }
-  main .table-container table thead .table-item {
-    border: 1px solid pink;
-    background-color: bisque;
-    font-style: italic; }
-  main .table-container table tbody tr td {
-    border: 1px solid pink;
-    background-color: bisque;
-    font-style: italic; }
-
-main .relevantes h2 {
-  font-style: italic;
-  text-align: center;
-  color: #f16bf1; }
-
-main .relevantes .relevantes-container {
-  display: flex;
-  justify-content: space-around; }
-  main .relevantes .relevantes-container .relevantes__card {
-    width: 200px;
-    height: 300px;
-    border: 1px solid gainsboro;
-    margin-bottom: 10px;
+      color: palevioletred;
+      text-align: center;
+      font-size: 40px; }
+    main .grid-containervariedad p {
+      color: palevioletred; }
+    main .grid-containervariedad .variedad__pg {
+      display: flex;
+      justify-content: space-around;
+      margin: 60px 60px 0 0; }
+      main .grid-containervariedad .variedad__pg .variedad__tittle {
+        font-style: italic;
+        color: #ee0a8f; }
+      main .grid-containervariedad .variedad__pg .variedad__p {
+        margin: 10px 0px 0px 5px; }
+  main .table-container {
+    margin-top: 30px;
+    margin-bottom: 30px; }
+    main .table-container table thead .table-item {
+      border: 1px solid pink;
+      background-color: bisque;
+      font-style: italic; }
+    main .table-container table tbody tr td {
+      border: 1px solid pink;
+      background-color: bisque;
+      font-style: italic; }
+  main .relevantes h2 {
+    font-style: italic;
     text-align: center;
-    border-radius: 15px;
-    background-color: #f4f5ad; }
-    main .relevantes .relevantes-container .relevantes__card img {
+    color: #f16bf1; }
+  main .relevantes .relevantes-container {
+    display: flex;
+    justify-content: space-around; }
+    main .relevantes .relevantes-container .relevantes__card {
       width: 200px;
-      height: 200px;
-      border-top-left-radius: 15px;
-      border-top-right-radius: 15px; }
-    main .relevantes .relevantes-container .relevantes__card h3 {
-      margin-bottom: 30px;
-      font-style: italic;
-      font-size: 25px; }
-    main .relevantes .relevantes-container .relevantes__card a {
-      text-decoration: none;
-      background-color: #f16bf1;
-      padding: 5px;
-      color: bisque;
-      border-radius: 5px; }
-
-main .boton-fixed img {
-  width: 30px;
-  height: 30px;
-  position: fixed;
-  right: 40px;
-  bottom: 40px; }
+      height: 300px;
+      border: 1px solid gainsboro;
+      margin-bottom: 10px;
+      text-align: center;
+      border-radius: 15px;
+      background-color: #f4f5ad; }
+      main .relevantes .relevantes-container .relevantes__card img {
+        width: 200px;
+        height: 200px;
+        border-top-left-radius: 15px;
+        border-top-right-radius: 15px; }
+      main .relevantes .relevantes-container .relevantes__card h3 {
+        margin-bottom: 30px;
+        font-style: italic;
+        font-size: 25px; }
+      main .relevantes .relevantes-container .relevantes__card a {
+        text-decoration: none;
+        background-color: #f16bf1;
+        padding: 5px;
+        color: bisque;
+        border-radius: 5px; }
+  main .boton-fixed img {
+    width: 30px;
+    height: 30px;
+    position: fixed;
+    right: 40px;
+    bottom: 40px; }
 
 footer {
   background-color: #ec8193;
