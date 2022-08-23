@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=The+Nautigal:wght@700&display=swap');
 @import "../base/maps";
 main{
     background-color: rgb(255, 255, 255);
@@ -15,7 +16,7 @@ main{
             width: 80%;
             text-align: center;
             h1{
-                font-size: 50px;
+                font-size: 60px;
                 font-weight: 100;
                 font-style: italic;
                 letter-spacing: 5px;
@@ -24,7 +25,12 @@ main{
                 font-family: 'The Nautigal', cursive;
                 position: sticky;
                 top: 20px; 
-                font-style: italic;
+                background-color: rgba(236, 129, 147, 0.664);
+                border-radius: 30%;
+                border-top-left-radius: 15px;
+                border-top-right-radius: 15px;
+                border-bottom-left-radius: 15px;
+                border-bottom-right-radius: 15px;
             }
             a{
                 text-decoration: none;
