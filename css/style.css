@@ -32,6 +32,11 @@ header nav ul li a{
     font-size: 20px;
     font-weight: 500px;
     font-style: italic;
+    transition: 2s;
+}
+
+header nav ul li a:hover{
+    color: darkorchid;
 }
 
 header nav ul li{

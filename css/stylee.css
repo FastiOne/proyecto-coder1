@@ -26,7 +26,10 @@ header {
         color: #f3f29f;
         font-size: 20px;
         font-weight: 500px;
-        font-style: italic; }
+        font-style: italic;
+        transition: 2s; }
+        header nav ul li a:hover {
+          color: #e22bd9; }
 
 .boton {
   background-color: #f16bf1;
