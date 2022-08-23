@@ -84,6 +84,18 @@ main {
         padding: 5px;
         color: bisque;
         border-radius: 5px; }
+  main .clickproductos {
+    text-align: center; }
+    main .clickproductos h2 {
+      font-style: italic;
+      color: #ee0a8f;
+      font-size: 30px; }
+    main .clickproductos a {
+      text-decoration: none;
+      background-color: #f16bf1;
+      padding: 5px;
+      color: bisque;
+      border-radius: 5px; }
   main .carouselcontainer .carousel-inner {
     width: 100%;
     height: 72vh;
