@@ -38,6 +38,7 @@ main{
                 padding: 5px;
                 color: bisque;
                 border-radius: 5px;
+                transition: 2s;
             }
         }
     }
@@ -85,7 +86,6 @@ main{
         }
         p{
             color: palevioletred;
-            margin-top: 2px;
         }
         .variedad__pg{
             display: flex;

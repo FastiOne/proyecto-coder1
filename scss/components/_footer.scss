@@ -17,6 +17,10 @@ footer{
                 font-size: 20px;
                 font-weight: 500px;
                 font-style: italic;
+                transition: 2s;
+                &:hover{
+                    color: blueviolet;
+                }
             }
         }
     }

@@ -86,7 +86,8 @@ main {
         background-color: #f16bf1;
         padding: 5px;
         color: bisque;
-        border-radius: 5px; }
+        border-radius: 5px;
+        transition: 2s; }
   main .clickproductos {
     text-align: center; }
     main .clickproductos h2 {
@@ -121,8 +122,7 @@ main {
       text-align: center;
       font-size: 40px; }
     main .grid-containervariedad p {
-      color: palevioletred;
-      margin-top: 2px; }
+      color: palevioletred; }
     main .grid-containervariedad .variedad__pg {
       display: flex;
       justify-content: space-around;
@@ -196,7 +196,10 @@ footer {
     color: #f3f29f;
     font-size: 20px;
     font-weight: 500px;
-    font-style: italic; }
+    font-style: italic;
+    transition: 2s; }
+    footer ul li a:hover {
+      color: blueviolet; }
   footer div .redeslogo {
     width: 30px;
     height: 30px; }
