@@ -85,17 +85,20 @@ main{
         }
         p{
             color: palevioletred;
+            margin-top: 2px;
         }
         .variedad__pg{
             display: flex;
             justify-content: space-around;
-            margin: 60px 60px 0 0;
+            margin: 20px 20px 0 50px;
             .variedad__tittle{
                 font-style: italic;
                 color: rgb(238, 10, 143);
+                margin-top: 1px;
             }
             .variedad__p{
                 margin: 10px 0px 0px 5px;
+                text-align: center;
             }
         }
     }
