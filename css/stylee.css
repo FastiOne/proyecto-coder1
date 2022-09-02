@@ -108,6 +108,10 @@ header {
   .productos div section {
     flex-direction: column; } }
 
+* {
+  margin: 0%;
+  padding: 0%; }
+
 main {
   background-color: white; }
   main .hero {
