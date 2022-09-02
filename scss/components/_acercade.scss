@@ -1,8 +1,12 @@
 @import "../base/mixins";
+*{
+    margin: 0%;
+    padding: 0%;
+}
 main{
     section{
         div{
-            img{
+            .acercadeimgsince{
                 width: 60px;
                 height: 60px;
             }
