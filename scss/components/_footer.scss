@@ -1,4 +1,8 @@
 @import "../base/responsive";
+*{
+    margin: 0%;
+    padding: 0%;
+}
 footer{
     background-color: rgb(236, 129, 147);
     display: flex;
