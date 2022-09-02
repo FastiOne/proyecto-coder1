@@ -329,3 +329,20 @@ header {
 * {
   margin: 0%;
   padding: 0%; }
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center; }
+
+* {
+  margin: 0%;
+  padding: 0%; }
+
+main .servicios div h1 {
+  font-style: italic;
+  color: #d25cf0;
+  text-align: center; }
+
+main section .list-group {
+  text-align: center; }

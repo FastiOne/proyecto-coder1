@@ -1,0 +1,21 @@
+@import "../base/mixins";
+*{
+    margin: 0%;
+    padding: 0%;
+}
+main{
+    .servicios{
+        div{
+            h1{
+                font-style: italic;
+                color: rgb(210, 92, 240);
+                text-align: center;
+            }
+        }
+    }
+    section{
+        .list-group{
+            text-align: center;
+        }
+    }
+}
