@@ -75,36 +75,26 @@ main{
         }
     }
     .grid-containervariedad{
-        color: pink;
-        display: grid;
-        grid-template-columns: repeat(2,1);
-        grid-template-rows: 100px;
         border: solid 1px palevioletred;
         background-color: bisque;
         margin-top: 20px;
-
-        h2{
-            font-style: italic;
-            color: palevioletred;
+        .variedadp{
             text-align: center;
-            font-size: 40px;
+            color: rgb(238, 10, 143);
+            margin-left: 300px;
+            margin-right: 300px;
         }
-        p{
-            color: palevioletred;
+        .variedadtittle{
+            font-style: italic;
+            color: rgb(105, 7, 92);
+            margin-top: 1px;
+            text-align: center;
         }
-        .variedad__pg{
-            display: flex;
-            justify-content: space-around;
-            margin: 20px 20px 0 50px;
-            .variedad__tittle{
-                font-style: italic;
-                color: rgb(238, 10, 143);
-                margin-top: 1px;
-            }
-            .variedad__p{
-                margin: 10px 0px 0px 5px;
-                text-align: center;
-            }
+        .variedadtittleg{
+            font-style: italic;
+            color: rgb(105, 7, 92);
+            margin-top: 1px;
+            text-align: center;
         }
     }
     .table-container{
