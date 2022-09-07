@@ -386,17 +386,42 @@ header {
   margin: 0%;
   padding: 0%; }
 
-main section div .acercadeimgsince {
-  width: 60px;
-  height: 60px; }
-
-main section div h1 {
-  font-style: italic;
-  color: #d25cf0;
-  text-align: center; }
-
-main section div p {
-  margin-top: 20px; }
+.mainacercade {
+  background-color: #f052db; }
+  .mainacercade section div .acercadeimgsince {
+    width: 60px;
+    height: 60px; }
+  .mainacercade section h1 {
+    font-style: italic;
+    color: #69075c;
+    text-align: center;
+    font-size: 40px; }
+  .mainacercade section h2 {
+    color: #69075c;
+    font-style: italic;
+    margin-top: 5px;
+    text-align: center; }
+  .mainacercade section .acercadegracias {
+    text-align: center;
+    margin-top: 40px;
+    font-size: 50px; }
+  .mainacercade section p {
+    margin-top: 20px;
+    text-align: center; }
+  .mainacercade .imagenespastelhaciendo {
+    display: flex;
+    justify-content: space-around;
+    align-items: center; }
+    .mainacercade .imagenespastelhaciendo .imagenpastelero {
+      width: 250px;
+      height: 500px;
+      object-fit: cover;
+      margin-top: 40px; }
+    .mainacercade .imagenespastelhaciendo .imagenhaciendo {
+      width: 250px;
+      height: 500px;
+      object-fit: cover;
+      margin-top: 40px; }
 
 footer img {
   width: 180px;

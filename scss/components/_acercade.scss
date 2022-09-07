@@ -4,7 +4,8 @@
     margin: 0%;
     padding: 0%;
 }
-main{
+.mainacercade{
+    background-color: rgb(240, 82, 219);
     section{
         div{
             .acercadeimgsince{
@@ -12,15 +13,43 @@ main{
                 height: 60px;
             }
         }
-        div{
-            h1{
+        h1{
                 font-style: italic;
-                color: rgb(210, 92, 240);
+                color: rgb(105, 7, 92);
+                text-align: center;
+                font-size: 40px;
+            }
+        h2{
+            color: rgb(105, 7, 92);
+            font-style: italic;
+            margin-top: 5px;
+            text-align: center;
+        }
+        .acercadegracias{
+            text-align: center;
+            margin-top: 40px;
+            font-size: 50px;
+        }
+        p{
+                margin-top: 20px;
                 text-align: center;
             }
-            p{
-                margin-top: 20px;
-            }
+    }
+    .imagenespastelhaciendo{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        .imagenpastelero{
+            width: 250px;
+            height: 500px;
+            object-fit: cover;
+            margin-top: 40px;
+        }
+        .imagenhaciendo{
+            width: 250px;
+            height: 500px;
+            object-fit: cover;
+            margin-top: 40px;
         }
     }
 }
